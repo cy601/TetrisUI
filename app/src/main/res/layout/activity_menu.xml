@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tetris_splash"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="70dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="@drawable/menutile"
+        android:onClick="onStart"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/battleBtn"
+
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="@drawable/menutile"
+        android:onClick="onBattle"
+        android:text="Battle" />
+
+    <Button
+        android:id="@+id/starsBtn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="@drawable/menutile"
+        android:onClick="onStars"
+        android:text="Stars" />
+
+    <Button
+        android:id="@+id/optionBtn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="@drawable/menutile"
+        android:onClick="onOptions"
+        android:text="Otpions" />
+
+    <Button
+        android:id="@+id/quitBtn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:background="@drawable/menutile"
+        android:onClick="onQuit"
+        android:text="Quit" />
+</LinearLayout>
+</RelativeLayout>
